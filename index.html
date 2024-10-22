@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Segredos da Floresta Encantada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/encontrou o mapa.png" alt="Uma trilha na floresta, com uma árvore velha escondendo um pergaminho antigo. O pergaminho fala de uma floresta encantada, cheia de mistérios e criaturas mágicas.">
+            <p>Em um dia comum, explorando uma trilha próxima à sua cidade, você encontra um antigo pergaminho escondido em uma árvore. Ele fala sobre uma floresta encantada cheia de mistérios e criaturas mágicas. Curioso, você decide seguir as instruções do pergaminho.</p>
+            <button class="btn-proximo" data-proximo="1">Seguir para a Floresta Negra</button>
+            <button class="btn-proximo" data-proximo="2">Investigar a Colina do Dragão</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você caminha pela Floresta Negra, onde as árvores sussurram segredos. Ao chegar a uma clareira, você percebe algo brilhando no meio das flores.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o brilho</button>
+            <button class="btn-proximo" data-proximo="4">Ignorar e continuar andando</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Colina do Dragão, o vento sopra forte. Você ouve um rugido distante e nota uma caverna nas proximidades. O que você fará?</p>
+            <button class="btn-proximo" data-proximo="5">Entrar na caverna</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para a floresta</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao se aproximar do brilho, você encontra uma pedra mágica que indica que a próxima pista está em uma cachoeira secreta.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a cachoeira</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/indo para o caminho.png" alt="Uma trilha na floresta, com uma árvore velha escondendo um pergaminho antigo. O pergaminho fala de uma floresta encantada, cheia de mistérios e criaturas mágicas.">
+            <p>Você decide que é melhor não arriscar e volta para casa, mas sempre se questiona o que teria encontrado se tivesse continuado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na caverna, você encontra pinturas antigas que revelam a localização de um portal mágico escondido na floresta. A próxima pista leva você de volta à floresta.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a floresta</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao retornar à floresta, você se depara com uma árvore antiga com inscrições místicas, mas nada mais é encontrado.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a caverna novamente</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Chegando à cachoeira secreta, você encontra um caminho escondido atrás dela. O som da água parece ecoar como se fosse um feitiço que protege a entrada para o mundo encantado.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o caminho escondido</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à caverna, você descobre uma passagem secreta que leva direto para o portal mágico. Agora, para a cachoeira!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a cachoeira</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao seguir o caminho atrás da cachoeira, você encontra uma vila mágica habitada por seres místicos. Aqui, você descobre a verdadeira essência da floresta encantada e decide protegê-la para sempre.</p>
+            <button class="btn-proximo" data-proximo="11">Ficar na vila mágica</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você se depara com um lugar sem saída. A sensação de mistério ainda permanece, mas a floresta não parece querer revelar mais segredos.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e tentar outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/chegada.png" alt="encontrando a vila mágica na floresta encantada">
+            <p>Na vila mágica, você encontra criaturas sábias e seres mágicos que te ensinam os segredos da floresta. Você decide se dedicar a proteger e estudar esse lugar incrível.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho atrás da cachoeira, você finalmente encontra a vila mágica e suas criaturas místicas.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a vila mágica</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
